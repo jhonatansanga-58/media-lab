@@ -1,0 +1,2463 @@
+<tnz framecount="24" version="71.1">
+  <generator>
+    "OpenToonz 1.7.1"
+  </generator>
+  <properties>
+    <cameras>
+      <camera>
+        <cameraSize>
+          16 9 
+        </cameraSize>
+        <cameraRes>
+          1920 1080 
+        </cameraRes>
+        <cameraXPrevalence>
+          1 
+        </cameraXPrevalence>
+        <interestRect>
+          0 0 -1 -1 
+        </interestRect>
+        </camera>
+      </cameras>
+    <outputs>
+      <output name="main">
+        <range>
+          0 -1 
+        </range>
+        <step>
+          1 
+        </step>
+        <shrink>
+          1 
+        </shrink>
+        <applyShrinkToViewer>
+          0 
+        </applyShrinkToViewer>
+        <fps>
+          24 
+        </fps>
+        <path>
+          "+outputs\\.tif"
+        </path>
+        <bpp>
+          32 
+        </bpp>
+        <multimedia>
+          0 
+        </multimedia>
+        <threadsIndex>
+          2 
+        </threadsIndex>
+        <maxTileSizeIndex>
+          0 
+        </maxTileSizeIndex>
+        <subcameraPrev>
+          0 
+        </subcameraPrev>
+        <stereoscopic>
+          0 0.05 
+        </stereoscopic>
+        <resquality>
+          0 
+        </resquality>
+        <fieldprevalence>
+          0 
+        </fieldprevalence>
+        <gamma>
+          1 
+        </gamma>
+        <timestretch>
+          25 25 
+        </timestretch>
+        <formatsProperties>
+          <formatProperties ext="tif">
+            <property name="Byte Ordering" type="enum" value="IBM PC">
+              <item value="IBM PC"/>
+              <item value="Mac"/>
+              </property>
+            <property name="Compression Type" type="enum" value="Lempel-Ziv and Welch encoding">
+              <item value="Lempel-Ziv and Welch encoding"/>
+              <item value="None"/>
+              <item value="Macintosh Run-length encoding"/>
+              <item value="ThunderScan Run-length encoding"/>
+              <item value="CCITT Group 3 fax encoding"/>
+              <item value="CCITT Group 4 fax encoding"/>
+              <item value="CCITT modified Huffman Run-length encoding"/>
+              <item value="JPEG compression"/>
+              <item value="JPEG compression 6.0"/>
+              <item value="SGILog"/>
+              <item value="SGILog24"/>
+              <item value="8"/>
+              <item value="zip"/>
+              <item value="Unknown"/>
+              </property>
+            <property name="Bits Per Pixel" type="enum" value="32(RGBM)">
+              <item value="24(RGB)"/>
+              <item value="48(RGB)"/>
+              <item value=" 1(BW)"/>
+              <item value=" 8(GREYTONES)"/>
+              <item value="32(RGBM)"/>
+              <item value="64(RGBM)"/>
+              </property>
+            <property name="Orientation" type="enum" value="Top Left">
+              <item value="Top Left"/>
+              <item value="Top Right"/>
+              <item value="Bottom Right"/>
+              <item value="Bottom Left"/>
+              <item value="Left Top"/>
+              <item value="Right Top"/>
+              <item value="Right Bottom"/>
+              <item value="Left Bottom"/>
+              </property>
+            </formatProperties>
+          </formatsProperties>
+        </output>
+      <output name="preview">
+        <range>
+          0 23 
+        </range>
+        <step>
+          1 
+        </step>
+        <shrink>
+          1 
+        </shrink>
+        <applyShrinkToViewer>
+          0 
+        </applyShrinkToViewer>
+        <fps>
+          24 
+        </fps>
+        <path>
+          "+outputs\\.tif"
+        </path>
+        <bpp>
+          32 
+        </bpp>
+        <syncColorSettings>
+          1 
+        </syncColorSettings>
+        <multimedia>
+          0 
+        </multimedia>
+        <threadsIndex>
+          2 
+        </threadsIndex>
+        <maxTileSizeIndex>
+          0 
+        </maxTileSizeIndex>
+        <subcameraPrev>
+          0 
+        </subcameraPrev>
+        <stereoscopic>
+          0 0.05 
+        </stereoscopic>
+        <resquality>
+          0 
+        </resquality>
+        <fieldprevalence>
+          0 
+        </fieldprevalence>
+        <gamma>
+          1 
+        </gamma>
+        <timestretch>
+          25 25 
+        </timestretch>
+        <formatsProperties>
+          <formatProperties ext="tif">
+            <property name="Byte Ordering" type="enum" value="IBM PC">
+              <item value="IBM PC"/>
+              <item value="Mac"/>
+              </property>
+            <property name="Compression Type" type="enum" value="Lempel-Ziv and Welch encoding">
+              <item value="Lempel-Ziv and Welch encoding"/>
+              <item value="None"/>
+              <item value="Macintosh Run-length encoding"/>
+              <item value="ThunderScan Run-length encoding"/>
+              <item value="CCITT Group 3 fax encoding"/>
+              <item value="CCITT Group 4 fax encoding"/>
+              <item value="CCITT modified Huffman Run-length encoding"/>
+              <item value="JPEG compression"/>
+              <item value="JPEG compression 6.0"/>
+              <item value="SGILog"/>
+              <item value="SGILog24"/>
+              <item value="8"/>
+              <item value="zip"/>
+              <item value="Unknown"/>
+              </property>
+            <property name="Bits Per Pixel" type="enum" value="32(RGBM)">
+              <item value="24(RGB)"/>
+              <item value="48(RGB)"/>
+              <item value=" 1(BW)"/>
+              <item value=" 8(GREYTONES)"/>
+              <item value="32(RGBM)"/>
+              <item value="64(RGBM)"/>
+              </property>
+            <property name="Orientation" type="enum" value="Top Left">
+              <item value="Top Left"/>
+              <item value="Top Right"/>
+              <item value="Bottom Right"/>
+              <item value="Bottom Left"/>
+              <item value="Left Top"/>
+              <item value="Right Top"/>
+              <item value="Right Bottom"/>
+              <item value="Left Bottom"/>
+              </property>
+            </formatProperties>
+          </formatsProperties>
+        </output>
+      </outputs>
+    <cleanupParameters>
+      <cleanupCamera>
+        <cameraSize>
+          16 9 
+        </cameraSize>
+        <cameraRes>
+          1920 1080 
+        </cameraRes>
+        <cameraXPrevalence>
+          1 
+        </cameraXPrevalence>
+        <interestRect>
+          0 0 -1 -1 
+        </interestRect>
+        </cleanupCamera>
+      <cleanupPalette>
+        <version>
+          71 0 
+        </version>
+        <styles>
+          <style>
+            color_0 3 255 255 255 0 
+          </style>
+          <style>
+            color_1 2002 0 0 0 255 0 0 0 255 0 50 70 10 
+          </style>
+          </styles>
+        <stylepages>
+          <page>
+            <name>
+              colors 
+            </name>
+            <indices>
+              0 1 
+            </indices>
+            </page>
+          </stylepages>
+        <shortcuts>
+          -1 0 1 -1 -1 -1 -1 -1 -1 -1 
+        </shortcuts>
+        </cleanupPalette>
+      <lineProcessing autoAdjust="0" mode="grey" sharpness="90.000000"/>
+      <despeckling value="2"/>
+      <aaValue value="70"/>
+      <closestField value="999.000000"/>
+      <fdg name=""/>
+      <altBrightnessContrast>
+        0 50 
+      </altBrightnessContrast>
+      <lpNoneFormat>
+        tif 
+      </lpNoneFormat>
+      </cleanupParameters>
+    <scanParameters>
+      <paper fmt=""/>
+      </scanParameters>
+    <vectorizerParameters>
+      <version>
+        71 0 
+      </version>
+      <outline>
+        0 
+      </outline>
+      <visibilityBits>
+        -1 
+      </visibilityBits>
+      <Centerline>
+        <threshold>
+          8 
+        </threshold>
+        <accuracy>
+          9 
+        </accuracy>
+        <despeckling>
+          5 
+        </despeckling>
+        <maxThickness>
+          200 
+        </maxThickness>
+        <thicknessRatioFirst>
+          100 
+        </thicknessRatioFirst>
+        <thicknessRatioLast>
+          100 
+        </thicknessRatioLast>
+        <makeFrame>
+          0 
+        </makeFrame>
+        <paintFill>
+          0 
+        </paintFill>
+        <alignBoundaryStrokesDirection>
+          0 
+        </alignBoundaryStrokesDirection>
+        <naaSource>
+          0 
+        </naaSource>
+        </Centerline>
+      <Outline>
+        <despeckling>
+          4 
+        </despeckling>
+        <accuracy>
+          8 
+        </accuracy>
+        <adherence>
+          50 
+        </adherence>
+        <angle>
+          45 
+        </angle>
+        <relative>
+          25 
+        </relative>
+        <maxColors>
+          50 
+        </maxColors>
+        <toneThreshold>
+          128 
+        </toneThreshold>
+        <transparentColor>
+          255 255 255 255 
+        </transparentColor>
+        <paintFill>
+          0 
+        </paintFill>
+        <alignBoundaryStrokesDirection>
+          0 
+        </alignBoundaryStrokesDirection>
+        </Outline>
+      </vectorizerParameters>
+    <bgColor>
+      255 255 255 0 
+    </bgColor>
+    <markers>
+      6 0 
+    </markers>
+    <subsampling>
+      1 1 
+    </subsampling>
+    <fieldguide>
+      16 1.77778 
+    </fieldguide>
+    <noteColors>
+      255 235 140 255 255 160 120 255 255 180 190 255 135 205 250 255 145 240 145 255 130 255 210 255 150 245 255 255 
+    </noteColors>
+    </properties>
+  <levelSet>
+    <levels>
+      <level id='1'>
+        A 
+        <info dpiType="image"/>
+        <path>
+          "+drawings\\A.pli"
+        </path>
+        
+      </level>
+      <level id='2'>
+        B 
+        <info dpiType="image"/>
+        <path>
+          "C:\\OpenToonz stuff\\sandbox\\extras\\B..tif"
+        </path>
+        
+      </level>
+      <level id='3'>
+        C 
+        <info dpiType="image"/>
+        <path>
+          "+drawings\\C.pli"
+        </path>
+        
+      </level>
+      <level id='4'>
+        D 
+        <info dpiType="image"/>
+        <path>
+          "C:\\OpenToonz stuff\\sandbox\\drawings\\D.pli"
+        </path>
+        
+      </level>
+      <level id='5'>
+        E 
+        <info dpiType="image"/>
+        <path>
+          "C:\\OpenToonz stuff\\sandbox\\drawings\\E.pli"
+        </path>
+        
+      </level>
+      <level id='6'>
+        E_mesh 
+        <info dpiType="image"/>
+        <path>
+          "C:\\OpenToonz stuff\\sandbox\\drawings\\E..mesh"
+        </path>
+        
+      </level>
+      
+    </levels>
+    <folder name="Cast" type="default">
+      <levels>
+        <level id='2'/><level id='3'/><level id='6'/><level id='1'/><level id='5'/><level id='4'/>
+      </levels>
+      </folder>
+    <folder name="Audio">
+      </folder>
+    </levelSet>
+  <xsheet>
+    <columns>
+      <levelColumn id='7'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 24 <level id='4'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='8'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              LevelColumn 
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='9'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 24 <level id='1'/>0002 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='10'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 25005 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              LevelColumn 
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='11'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 24 <level id='3'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='12'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              LevelColumn 
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='13'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 24 <level id='1'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='14'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 24955 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              LevelColumn 
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='15'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 24 <level id='5'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='16'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              LevelColumn 
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <meshColumn id='17'>
+        
+        <status>
+          1 
+        </status>
+        <cells>
+          <cell>
+            0 24 <level id='6'/>0001 0 
+          </cell>
+          </cells>
+        
+      </meshColumn>
+      
+    </columns>
+    <pegbars>
+      <pegbar id="None">
+        <parent handle="B" id="None" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          1.234e+09 5.678e+09 
+        </nodePos>
+        </pegbar>
+      <pegbar activeboth="yes" id="Camera1">
+        <parent handle="B" id="None" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24500 25550 
+        </nodePos>
+        <camera>
+          <cameraSize>
+            16 9 
+          </cameraSize>
+          <cameraRes>
+            1920 1080 
+          </cameraRes>
+          <cameraXPrevalence>
+            1 
+          </cameraXPrevalence>
+          <interestRect>
+            0 0 -1 -1 
+          </interestRect>
+          </camera>
+        </pegbar>
+      <pegbar id="Table">
+        <parent handle="B" id="None" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24500 25500 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col1">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          1.234e+09 5.678e+09 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col2">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          -0.476139 -2.3807 0.476139 2.3807 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              9 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              16 0 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              9 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              16 0 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              9 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              9 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              9 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              9 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              9 1 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <S>
+              9 0 6.6 -0.457953 
+            </S>
+            <L>
+              <prev>
+                90 -5.7 -9.17033 
+              </prev>
+              16 90 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              9 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              9 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              9 0 
+            </L>
+            </keyframes>
+          </shy>
+        <nodePos>
+          24620 25500 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col3">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0.525255 -2.38336 -0.525255 2.38336 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              9 0 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              9 0 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              9 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              9 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              9 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              9 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              9 1 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <S>
+              9 0 6.82427 0.0208322 
+            </S>
+            <L>
+              <prev>
+                -90 -5.00018 4.25283 
+              </prev>
+              16 -90 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              9 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              9 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              9 0 
+            </L>
+            </keyframes>
+          </shy>
+        <nodePos>
+          1.234e+09 5.678e+09 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col4">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24620 25450 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col5">
+        <parent handle="B" id="Col6" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          1.234e+09 5.678e+09 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col6">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <name>
+          Col5_mesh 
+        </name>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              12 0 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              12 0.338308 
+            </L>
+            </keyframes>
+          </y>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <plasticSD>
+          <VertexDeforms>
+            <Name>
+              Root 
+            </Name>
+            <Hook>
+              1 
+            </Hook>
+            <VD>
+              <Angle>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </Angle>
+              <Distance>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </Distance>
+              <SO>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </SO>
+              </VD>
+            <Name>
+              "Vertex _10"
+            </Name>
+            <Hook>
+              11 
+            </Hook>
+            <VD>
+              <Angle>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -9.40657 
+                    </prev>
+                    22 -9.40657 
+                  </L>
+                  </keyframes>
+                </Angle>
+              <Distance>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </Distance>
+              <SO>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </SO>
+              </VD>
+            <Name>
+              "Vertex _11"
+            </Name>
+            <Hook>
+              12 
+            </Hook>
+            <VD>
+              <Angle>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -4.31737 
+                    </prev>
+                    22 -4.31737 
+                  </L>
+                  </keyframes>
+                </Angle>
+              <Distance>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </Distance>
+              <SO>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </SO>
+              </VD>
+            <Name>
+              "Vertex _12"
+            </Name>
+            <Hook>
+              13 
+            </Hook>
+            <VD>
+              <Angle>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -8.2243 
+                    </prev>
+                    22 -8.2243 
+                  </L>
+                  </keyframes>
+                </Angle>
+              <Distance>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </Distance>
+              <SO>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </SO>
+              </VD>
+            <Name>
+              "Vertex _13"
+            </Name>
+            <Hook>
+              14 
+            </Hook>
+            <VD>
+              <Angle>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -0.885071 
+                    </prev>
+                    22 -0.885071 
+                  </L>
+                  </keyframes>
+                </Angle>
+              <Distance>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </Distance>
+              <SO>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </SO>
+              </VD>
+            <Name>
+              "Vertex _14"
+            </Name>
+            <Hook>
+              15 
+            </Hook>
+            <VD>
+              <Angle>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -3.17359 
+                    </prev>
+                    22 -3.17359 
+                  </L>
+                  </keyframes>
+                </Angle>
+              <Distance>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </Distance>
+              <SO>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </SO>
+              </VD>
+            <Name>
+              "Vertex _15"
+            </Name>
+            <Hook>
+              16 
+            </Hook>
+            <VD>
+              <Angle>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -2.23655 
+                    </prev>
+                    22 -2.23655 
+                  </L>
+                  </keyframes>
+                </Angle>
+              <Distance>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </Distance>
+              <SO>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </SO>
+              </VD>
+            <Name>
+              "Vertex _16"
+            </Name>
+            <Hook>
+              17 
+            </Hook>
+            <VD>
+              <Angle>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </Angle>
+              <Distance>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </Distance>
+              <SO>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </SO>
+              </VD>
+            <Name>
+              "Vertex __1"
+            </Name>
+            <Hook>
+              2 
+            </Hook>
+            <VD>
+              <Angle>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      7.32634 
+                    </prev>
+                    22 7.32634 
+                  </L>
+                  </keyframes>
+                </Angle>
+              <Distance>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </Distance>
+              <SO>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </SO>
+              </VD>
+            <Name>
+              "Vertex __2"
+            </Name>
+            <Hook>
+              3 
+            </Hook>
+            <VD>
+              <Angle>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </Angle>
+              <Distance>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </Distance>
+              <SO>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </SO>
+              </VD>
+            <Name>
+              "Vertex __3"
+            </Name>
+            <Hook>
+              4 
+            </Hook>
+            <VD>
+              <Angle>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -0.325696 
+                    </prev>
+                    22 -0.325696 
+                  </L>
+                  </keyframes>
+                </Angle>
+              <Distance>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </Distance>
+              <SO>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </SO>
+              </VD>
+            <Name>
+              "Vertex __4"
+            </Name>
+            <Hook>
+              5 
+            </Hook>
+            <VD>
+              <Angle>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -5.51663 
+                    </prev>
+                    22 -5.51663 
+                  </L>
+                  </keyframes>
+                </Angle>
+              <Distance>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </Distance>
+              <SO>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </SO>
+              </VD>
+            <Name>
+              "Vertex __5"
+            </Name>
+            <Hook>
+              6 
+            </Hook>
+            <VD>
+              <Angle>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -2.47943 
+                    </prev>
+                    22 -2.47943 
+                  </L>
+                  </keyframes>
+                </Angle>
+              <Distance>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </Distance>
+              <SO>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </SO>
+              </VD>
+            <Name>
+              "Vertex __6"
+            </Name>
+            <Hook>
+              7 
+            </Hook>
+            <VD>
+              <Angle>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -6.20556 
+                    </prev>
+                    22 -6.20556 
+                  </L>
+                  </keyframes>
+                </Angle>
+              <Distance>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </Distance>
+              <SO>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </SO>
+              </VD>
+            <Name>
+              "Vertex __7"
+            </Name>
+            <Hook>
+              8 
+            </Hook>
+            <VD>
+              <Angle>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      6.23433 
+                    </prev>
+                    22 6.23433 
+                  </L>
+                  </keyframes>
+                </Angle>
+              <Distance>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </Distance>
+              <SO>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </SO>
+              </VD>
+            <Name>
+              "Vertex __8"
+            </Name>
+            <Hook>
+              9 
+            </Hook>
+            <VD>
+              <Angle>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      5.74788 
+                    </prev>
+                    22 5.74788 
+                  </L>
+                  </keyframes>
+                </Angle>
+              <Distance>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </Distance>
+              <SO>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </SO>
+              </VD>
+            <Name>
+              "Vertex __9"
+            </Name>
+            <Hook>
+              10 
+            </Hook>
+            <VD>
+              <Angle>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -62.6303 
+                    </prev>
+                    22 -62.6303 
+                  </L>
+                  </keyframes>
+                </Angle>
+              <Distance>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </Distance>
+              <SO>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    12 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    22 0 
+                  </L>
+                  </keyframes>
+                </SO>
+              </VD>
+            </VertexDeforms>
+          <SkelIdsParam>
+            <default>
+              1 
+            </default>
+            </SkelIdsParam>
+          <Skeletons>
+            <SkelId>
+              1 
+            </SkelId>
+            <Skeleton>
+              <V>
+                17 
+                <Vertex>
+                  <name>
+                    Root 
+                  </name>
+                  <number>
+                    0 
+                  </number>
+                  <pos>
+                    1.34906 -119.966 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex __1"
+                  </name>
+                  <number>
+                    1 
+                  </number>
+                  <pos>
+                    1.39043 98.2182 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex __2"
+                  </name>
+                  <number>
+                    2 
+                  </number>
+                  <pos>
+                    1.37189 0.440174 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex __3"
+                  </name>
+                  <number>
+                    3 
+                  </number>
+                  <pos>
+                    1.38139 50.534 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex __4"
+                  </name>
+                  <number>
+                    4 
+                  </number>
+                  <pos>
+                    1.36095 -57.2512 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex __5"
+                  </name>
+                  <number>
+                    5 
+                  </number>
+                  <pos>
+                    1.36632 -28.9526 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex __6"
+                  </name>
+                  <number>
+                    6 
+                  </number>
+                  <pos>
+                    1.35488 -89.2956 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex __7"
+                  </name>
+                  <number>
+                    7 
+                  </number>
+                  <pos>
+                    1.37665 25.5647 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex __8"
+                  </name>
+                  <number>
+                    8 
+                  </number>
+                  <pos>
+                    1.38628 76.3364 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex __9"
+                  </name>
+                  <number>
+                    9 
+                  </number>
+                  <pos>
+                    1.35219 -103.445 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex _10"
+                  </name>
+                  <number>
+                    10 
+                  </number>
+                  <pos>
+                    1.35795 -73.0653 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex _11"
+                  </name>
+                  <number>
+                    11 
+                  </number>
+                  <pos>
+                    1.36355 -43.518 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex _12"
+                  </name>
+                  <number>
+                    12 
+                  </number>
+                  <pos>
+                    1.36908 -14.3866 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex _13"
+                  </name>
+                  <number>
+                    13 
+                  </number>
+                  <pos>
+                    1.37428 13.0797 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex _14"
+                  </name>
+                  <number>
+                    14 
+                  </number>
+                  <pos>
+                    1.3791 38.4658 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex _15"
+                  </name>
+                  <number>
+                    15 
+                  </number>
+                  <pos>
+                    1.38375 63.0194 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex _16"
+                  </name>
+                  <number>
+                    16 
+                  </number>
+                  <pos>
+                    1.38841 87.5727 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                </V>
+              <E>
+                16 0 9 9 6 6 10 10 4 4 11 11 5 5 12 12 2 2 13 13 7 7 14 14 3 3 15 15 8 8 16 16 1 
+              </E>
+              </Skeleton>
+            </Skeletons>
+          </plasticSD>
+        <nodePos>
+          1.234e+09 5.678e+09 
+        </nodePos>
+        </pegbar>
+      <grid_dimension>
+        1 
+      </grid_dimension>
+      </pegbars>
+    <fxnodes>
+      <terminal>
+        <fxnode>
+          <Toonz_columnFx id='16'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='10'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='12'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='14'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='8'/>
+        </fxnode>
+        </terminal>
+      <xsheet>
+        <Toonz_xsheetFx id='18'>
+          
+          <params>
+            </params>
+          <ports>
+            </ports>
+          <dagNodePos>
+            25120 25000 
+          </dagNodePos>
+          <numberId>
+            0 
+          </numberId>
+          <name>
+            Xsheet 
+          </name>
+          <fxId>
+            "" 
+          </fxId>
+          <opened>
+            0 
+          </opened>
+          
+        </Toonz_xsheetFx>
+        
+      </xsheet>
+      <output>
+        <Toonz_outputFx id='19'>
+          
+          <params>
+            </params>
+          <ports>
+            <source>
+              <Toonz_xsheetFx id='18'/>
+            </source>
+            </ports>
+          <dagNodePos>
+            25235 24995 
+          </dagNodePos>
+          <numberId>
+            0 
+          </numberId>
+          <name>
+            Output 
+          </name>
+          <fxId>
+            "" 
+          </fxId>
+          <opened>
+            0 
+          </opened>
+          
+        </Toonz_outputFx>
+        
+      </output>
+      <grid_dimension>
+        1 
+      </grid_dimension>
+      </fxnodes>
+    </xsheet>
+  <history>
+    "| #    DATE:       Time:   MACHINE:    USER:           |"
+    "| #1   17 Jul 25   16:06   SOCMONITOR01admin           |"
+    "| #2   18 Jul 25   10:25   SOCMONITOR01admin           |"
+  </history>
+  </tnz>
